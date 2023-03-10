@@ -8,12 +8,14 @@ import {
   EditEventPage,
   RootLayout,
   EventsRootLayout,
+  ErrorPage,
 } from "./pages";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
+    errorElement: <ErrorPage />,
     children: [
       { index: true, element: <HomePage /> },
       {
