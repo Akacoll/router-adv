@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"Mario","image":"https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/04/super-mario-bros-se-torna-maior-adaptac%CC%A7a%CC%83o-de-jogo-para-cinema.jpg","date":"2023-04-26","description":"adsasd","id":"6752f244-f989-4893-8509-409e363cf38f"},{"title":"Castle","image":"https://a.cdn-hotels.com/gdcs/production12/d1130/83f1c8c6-e12d-4e69-8433-c5bbc90b5ad6.jpg","date":"2023-04-26","description":"Classy","id":"6f59b9b0-0e63-4e5b-9c7f-f41c3ace75ae"},{"title":"Party","image":"https://img.freepik.com/vetores-gratis/silhuetas-de-multidao-festa-dancando-na-boate_1048-11557.jpg?w=2000","date":"1222-02-22","description":"Fun!","id":"346e12ac-0e13-4830-ad6d-993ca6436f48"}]}

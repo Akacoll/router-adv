@@ -11,3 +11,4 @@ export { default as EventsRootLayout } from "./EventsRoot";
 export { loader as eventsLoader } from "./Events";
 export { loader as eventDetailLoader } from "./EventDetail";
 export { action as newEventAction } from "./NewEvent";
+export { action as deleteEventAction } from "./EventDetail";
