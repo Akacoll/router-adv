@@ -10,7 +10,7 @@ import {
   RootLayout,
   EventsRootLayout,
   ErrorPage,
-  newEventAction,
+  manipulateEventAction,
   deleteEventAction
 } from "./pages";
 
@@ -40,10 +40,10 @@ const router = createBrowserRouter([
                 element: <EventDetailPage />,
                 action: deleteEventAction,
               },
-              { path: "edit", element: <EditEventPage /> },
+              { path: "edit", element: <EditEventPage />, action: manipulateEventAction },
             ],
           },
-          { path: "new", element: <NewEventPage />, action: newEventAction },
+          { path: "new", element: <NewEventPage />, action: manipulateEventAction },
         ],
       },
     ],
